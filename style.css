@@ -66,4 +66,13 @@ ul {
     text-decoration: underline;
 }
 
-.section {font-size: 24px;}
+.section {
+    font-size: 24px;
+}
+
+code {
+    display: block;
+    width: 30%;
+    background-color: rgb(221, 221, 221);
+    border: 2px solid black;
+}
