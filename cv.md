@@ -25,3 +25,11 @@ Code:
 **Work Experience**
 
 Creating this CV is my first experience.
+
+**Education:**
+
+Complete a "JS/FE Pre-school 2022Q2" course
+
+**English Language**
+
+A2
