@@ -11,6 +11,9 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     min-height: 100vh;
     margin: 0;
@@ -18,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: "Roboto, sans-serif";
+    font-family: "Roboto";
 }
 .header.main.footer {
     margin: 0;
@@ -26,4 +29,32 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(140, 140, 140);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+/* .nav-item {
+    width: auto;
+} */
+.nav-link {
+    white-space: nowrap;
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.nav-link:hover {
+    color: white;
+    transition: 0.2s;
+    transition-timing-function: linear;
 }
