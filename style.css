@@ -99,7 +99,7 @@ body {
 .p {
     font-size: 24px;
 }
-.code>pre {
+.code {
     margin-left: 20px;
     border-left: 4px solid rgb(140, 140, 140);
     font-size: 24px;
