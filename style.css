@@ -67,8 +67,6 @@ body {
 
 .left-block, .right-block {
     padding: 0 3%;
-    /* height: 100px; */
-    border: 1px solid red;
 }
 
 .left-block {
@@ -105,4 +103,36 @@ body {
     margin-left: 20px;
     border-left: 4px solid rgb(140, 140, 140);
     font-size: 24px;
+}
+.footer {
+    background-color: rgb(140, 140, 140);
+}
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-github {
+    display: flex;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+.footer-github>img {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.footer-date {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.rs-link>img {
+    height: 40px;
+    margin-top: 20px;
 }
