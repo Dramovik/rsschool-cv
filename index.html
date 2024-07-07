@@ -4,8 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./src/img/Dramovik-favicon.png">
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Work Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English Language</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-wrapper">
+            <div class="left-block">
+                <div class="avatar"><img src="./src/img/dramovik_photo.png" alt="Avatar"></div>
+                <h1 class="name section-title">Dramovik</h1>
+                <section class="contact" id="contact">
+                    <h2 class="section-title contact">Contact information</h2>
+                    <p>Discord: <a href="https://discordapp.com/users/588778289644961798" class="nav-link">Dramovik</a></p>
+                </section>
+            </div>
+            <div class="right-block">
+                <section class="section" id="about">
+                    <h2 class="section-title">About me</h2>
+                    <p class="p">I've always liked programming. Having good logical thinking, I want to try myself in the IT field.</p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <p class="p">I have basic knowledge of languages: C++, Lua and JavaScript. I know how to work with the Git version control system.</p>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code Example</h2>
+                    <p class="p">Task:  Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number.</p>
+                    <p class="p">Code:</p>
+                    <pre class="code"><code>
+    `const quarterOf = (month) => {`  
+        `return Math.ceil(month / 3);`  
+    `}`  
+                    </code></pre>
+                </section>
+                <section class="section" id="experience">
+                    <h2 class="section-title">Work Experience</h2>
+                    <p class="p">Creating this CV is my first experience.</p>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p class="p">Complete a "JS/FE Pre-school 2022Q2" course</p>
+                </section>
+                <section class="section" id="english">
+                    <h2 class="section-title">English Language</h2>
+                    <p class="p">A2</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-list">
+                <li class="footer-list-item">
+                    <a href="https://github.com/Dramovik" class="footer-github nav-link">
+                        <img src="./src/img/GitHub-logo.png" alt="GitHub logo">
+                        <p>Dramovik</p>
+                    </a></li>
+                <li class="footer-list-item"><p class="footer-date">July, 2024</p></li>
+                <li class="footer-list-item">
+                    <a href="https://app.rs.school/" class="rs-link">
+                        <img src="./src/img/logo-rsschool3-white-removebg-preview.png" alt="rs-school logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
